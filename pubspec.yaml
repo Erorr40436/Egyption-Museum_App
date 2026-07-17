@@ -43,6 +43,7 @@ dependencies:
   latlong2: ^0.9.1
   geolocator: ^14.0.2
   model_viewer_plus: ^1.10.0
+  url_launcher: ^6.3.2
   
 
 dev_dependencies:
@@ -65,9 +66,9 @@ flutter:
   uses-material-design: true
 
 
-  # assets:
-  #   - assets/images/
-  #   - assets/models/
+  assets:
+    - assets/images/
+    - assets/icons/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -109,7 +110,7 @@ flutter:
         - weight: 400
         - asset: assets/fonts/Noto_Serif/NotoSerif-Light.ttf
         - weight: 300
-        - asset: fonts/Noto_Serif/NotoSerif-Medium.ttf
+        - asset: assets/fonts/Noto_Serif/NotoSerif-Medium.ttf
         - weight: 500
         - asset: assets/fonts/Noto_Serif/NotoSerif-SemiBold.ttf
         - weight: 600
